@@ -4,11 +4,14 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
-import java.util.Date;
 
 import com.jpmorgan.stock.service.impl.JPMSAbstractAgent;
-import com.jpmorgan.stock.service.protocol.JPMSAgent;
-
+/**
+ * Basic Implementation of an HTTP Server
+ * 
+ * @author ccarlenzoli
+ *
+ */
 public class HttpServer extends  JPMSAbstractAgent {
 
 	
